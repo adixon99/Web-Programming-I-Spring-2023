@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+
+body{
+	margin: auto;
+	background-color: white;
+	font-family: sans-serif;
+	padding-top: 125px;
+	text-align:center;
+
+}
+
+h1,h3,h4 {
+	color:olive;text-align: center;	
+}
+
+h2 {
+	color:darkslategrey;text-align: center;
+}
+
+
+header {
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: midnightblue;
+	color: white;
+	box-sizing:border-box;
+	clear: both;
+	z-index: 1;
+	height: 75px;
+	
+}
+
+
+img {display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:white;
+  margin: auto;
+	}
+
+.grid-item {
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: olive;
+}
+ 
