@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+
+body{
+	margin: 25px;
+	background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: sans-serif;
+	padding-top: 125px;
+	text-align: center;
+	color: white;	
+}
+
+
+
+
+h1,h3,h4 {
+	color: white; text-align: center;	
+}
+
+h2 {
+	color: black; text-align: center; font-size: 40px
+}
+
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color:rebeccapurple;
+	box-sizing: border-box;
+	clear: both;
+	z-index: 1;
+	height: 75px;	
+}
+
+/*Pic & About Me Info*/
+.container {
+	font-size: 30px;
+	text-align: left;
+	padding: 20px; height: 200px
+}
+
+
+
+
+
+
+.left{
+	width: 33%;
+	float: left;
+
+	}
+
+
+.right{
+	width: 66%;
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+
+/*Assignments by Week */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: auto
+	}
+
+.grid-item {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+ 
